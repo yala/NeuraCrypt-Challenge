@@ -53,8 +53,17 @@ Submissions are evaluated using `scripts/evaluate_submission.py` in the [NeuraCr
 Please email adamyala@mit.edu or post an issue if you have any questions. 
 
 ## Leaderboards
+## Challenge 1: Reidentifying patients from matching datasets 
+| Encoding | Attack Author | ReID Acc | Privacy Rating |
+| ----: | :----: | :----: | :----: |
+| Depth 3, no shuffle | Nicholas Carlini | 100% | **bad** |
 
-In progress. 
+Note, this challenge is won when an attack obtains > 20% accuracy on Depth-7 or Depth-47.
+
+## Challenge 2: Identifying T from distributionally matched datasets (Harder but real-world)
+
+No submissions recieved yet.
+Note, this challenge is won when an attack obtains > 20% accuracy on Depth-7 or Depth-47.
 
 
 ## Citing the NeuraCrypt Challenge
