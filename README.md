@@ -5,7 +5,7 @@ NeuraCrypt encodes raw patient data using a randomly constructed neural network 
 
 Given a NeuraCrypt coded dataset, the challenge is to reidentify the original data or recover the private NeuraCrypt encoder `T`. We note that these notions are interchangeable, as with `T`, an attacker could recover the images with a plaintext attack and vice-versa. We explore the security of NeuraCrypt encodings in two settings, a simplified setting where the attacker has access to the plaintext version of encoded data and a harder real-world setting where the attacker only has access to distributionally matched plaintext data.
 
-All challenges are done using subsets of the [CheXPert dataset](https://stanfordmlgroup.github.io/competitions/chexpert/). Another version of the challenge will be subsets of ImageNet (in progress).  For each challenge, we release several versions of encodings to explore how the security of NeuraCrypt varies by architecture.
+All challenges are done using subsets of the [CheXPert dataset](https://stanfordmlgroup.github.io/competitions/chexpert/). For each challenge, we release several versions of encodings to explore how the security of NeuraCrypt varies by architecture.
 
 We release encodings for:
 - Linear Encoder (Easy to break)
