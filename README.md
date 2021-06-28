@@ -54,9 +54,9 @@ Please email adamyala@mit.edu or post an issue if you have any questions.
 
 ## Leaderboards
 ## Challenge 1: Reidentifying patients from matching datasets 
-| Encoding | Attack Author | ReID Acc | Privacy Rating |
+| Encoding | Attack Author, Date | ReID Acc | Privacy Rating |
 | ----: | :----: | :----: | :----: |
-| Depth 3, no shuffle | Nicholas Carlini | 100% | **bad** |
+| Depth 3, no shuffle | Nicholas Carlini, 06/28/21 | 100% | **bad** |
 
 Note, this challenge is won when an attack obtains > 20% accuracy on Depth-7 or Depth-47.
 
