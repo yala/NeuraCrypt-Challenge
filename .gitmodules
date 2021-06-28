@@ -1,0 +1,3 @@
+[submodule "NeuraCrypt"]
+	path = NeuraCrypt
+	url = git@github.com:yala/NeuraCrypt.git
