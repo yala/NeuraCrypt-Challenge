@@ -9,8 +9,8 @@ All challenges are done using subsets of the [CheXPert dataset](https://stanford
 
 We release encodings for:
 - Linear Encoder (Easy to break)
-- NeuraCrypt depth 2 - No Shuffle
-- NeuraCrypt depth 2  
+- NeuraCrypt depth 3 - No Shuffle
+- NeuraCrypt depth 3  
 - NeuraCrypt depth 7 (As used in the paper)
 - NeuraCrypt depth 47
 
