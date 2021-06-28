@@ -25,7 +25,7 @@ In this challenge, the attacker has access to an encoded subset of the CheXpert 
 While in real world scenarios, an attacker would not have access to matching raw images, this simplified setting offers an informative benchmark in understanding the privacy offered by NeuraCrypt architectures. 
 
 ### Baselines
-The MMD attack presented in the [paper](https://arxiv.org/abs/2106.02484) can obtain a >99% accuracy on the linear encodings in this challenge. However, it does not obtain an accuracy >5% on NeuraCrypt-7. See the leaderboards for more details.
+The MMD attack presented in the [paper](https://arxiv.org/abs/2106.02484) can obtain a >99% accuracy on the linear encodings in this challenge. However, it does not obtain an accuracy >5% on NeuraCrypt-7.
 
 The MMD attack was run using `mmd_attacks.sh`.
 
@@ -37,7 +37,7 @@ In this challenge, the attacker has access to an encoded subset of the CheXpert 
 We evaluate the attacker's candidate `T'` on the target set of images `A` by whether `T’(x)` has `T(x)` as it’s nearest neighbor (via MSE) among `{T(x’), x’ in A}`. Since patches may be shuffled, we evaluate the distance between two `z` as the MSE between their average patches which ignores the patch ordering. We compute the accuracy of this matching.
 
 ### Baselines
-The MMD attack presented in the [paper](https://arxiv.org/abs/2106.02484) can obtain a >99% accuracy on the linear encodings in this challenge. However, it does not obtain an accuracy >5% on NeuraCrypt-7. See the leaderboards for more details.
+The MMD attack presented in the [paper](https://arxiv.org/abs/2106.02484) can obtain a >99% accuracy on the linear encodings in this challenge. However, it does not obtain an accuracy >5% on NeuraCrypt-7. 
 
 The MMD attack was run using `mmd_attacks.sh`.
 
