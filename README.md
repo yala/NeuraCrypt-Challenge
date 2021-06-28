@@ -45,7 +45,7 @@ The MMD attack was run using `mmd_attacks.sh`.
 
 All source code used for NeuraCrypt and the NeuraCrypt challenge are available [here](github.com/yala/NeuraCrypt). The datasets were generated for each setting using `generate_datasets.sh`.  
 
-A sample submission is shown in the `sample_submission` directory on S3. This was created using `create_challenge_submission.sh`. sPlease follow our submission format exactly and email your submission to adamyala@mit.edu  when you are ready.
+A sample submission is shown in the `sample_submission` directory on S3. This was created using `create_challenge_submission.sh`. Please follow our submission format and email your submission to adamyala@mit.edu when you are ready.
 
 Submissions are evaluated using `scripts/evaluate_submission.py` in the [NeuraCrypt codebase](github.com/yala/NeuraCrypt). 
 Please email adamyala@mit.edu or post an issue if you have any questions. 
