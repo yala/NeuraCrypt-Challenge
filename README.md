@@ -82,7 +82,10 @@ Note, this challenge is won when an attack obtains > 20% accuracy on Depth-7 or 
 We would like to thank Nicholas Carlini for helpful feedback in designing the challenge. 
 
 ## Sponsors
-We are lucky to be supported by ![JClinic](jclinic.jpeg) and ![Wellcome Trust](wellcome.jpeg)
+We are lucky to be supported by:
+![JClinic](jclinic.jpeg) 
+
+![Wellcome Trust](wellcome.jpeg)
 
 
 
