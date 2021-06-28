@@ -43,9 +43,11 @@ The MMD attack was run using `mmd_attacks.sh`.
 
 ## Implementation Details
 
-All source code used for NeuraCrypt and the NeuraCrypt challenge are available [here](github.com/yala/NeuraCrypt). The datasets were generated for each setting using `generate_datasets.sh`.  
+All source code used for NeuraCrypt and the NeuraCrypt challenge are available [here](github.com/yala/NeuraCrypt). The datasets were generated for each setting using `generate_datasets.sh`. For each encoding, there is a `private_encoded_dataset` directory, `private_encoded_dataset_path_list.json` and `challenge_2_target_dataset_path_list.json`. The `private_encoded_dataset` directory contains numpy files for each encoded image, `private_encoded_dataset_path_list.json` identifies which paths (i.e image IDs) from the CheXpert dataset are in `private_encoded_dataset`, and `challenge_2_target_dataset_path_list.json`identifies the image paths (i.e subset of CheXpert) for which to submit encodings for Challenge 2. We note that the two json lists are unordered and do not release the solution.
 
-A sample submission is shown in the `sample_submission` directory on S3. This was created using `create_challenge_submission.sh`. Please follow our submission format and email your submission to adamyala@mit.edu when you are ready.
+A sample submission is shown in the `sample_submission` directory on S3. This was created using `create_challenge_submission.sh`. This contains `parallel_data_predictions.json`, `out_of_domain_npy_path_to_orig_path_dict.json`, and the `challenge_2_target_dataset` directory. `parallel_data_predictions.json` contains the submission for Challenge 1, and predicts a numpy file (e.g `8262.npy`) for each source CheXpert image path.  `challenge_2_target_dataset` contains numpy files for the target images in Challenge 2 and  `out_of_domain_npy_path_to_orig_path_dict.json` contains the mapping from CheXpert image paths to encoded image paths (`challenge_2_target_dataset`).
+
+Please follow our submission format and email your submission to adamyala@mit.edu when you are ready. 
 
 Submissions are evaluated using `scripts/evaluate_submission.py` in the [NeuraCrypt codebase](github.com/yala/NeuraCrypt). 
 Please email adamyala@mit.edu or post an issue if you have any questions. 
