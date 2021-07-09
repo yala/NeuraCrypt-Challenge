@@ -54,12 +54,12 @@ Please email adamyala@mit.edu or post an issue if you have any questions.
 
 ## Leaderboards
 ## Challenge 1: Reidentifying patients from matching datasets 
-| Encoding | Attack Author, Date | ReID Acc | Privacy Rating |
-| ----: | :----: | :----: | :----: |
-| Depth 7 | Nicholas Carlini, 06/29/21 | 100% | **bad** |
-| Depth 3, no shuffle | Nicholas Carlini, 06/28/21 | 100% | **bad** |
+| Encoding | Attack Author | ReID Acc | 
+| ----: | :----: | :----: |
+| **Depth 7** | **Nicholas Carlini** | **100%**|
+| Depth 3, no shuffle | Nicholas Carlini | 100% |
 
-**Nicholas Carlini has won Challenge 1. We link his attack writeup when it is available online.**
+**Nicholas Carlini has solved Challenge 1. We link his attack writeup when it is available online.**
 
 ## Challenge 2: Identifying T from distributionally matched datasets (Harder but real-world)
 
