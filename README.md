@@ -49,7 +49,7 @@ A sample submission is shown in the `sample_submission` directory on S3. This wa
 
 Please follow our submission format and email your submission to adamyala@mit.edu when you are ready. 
 
-Submissions are evaluated using `scripts/evaluate_submission.py` in the [NeuraCrypt codebase](github.com/yala/NeuraCrypt). 
+Submissions are evaluated using `scripts/evaluate_submission.py` in the [NeuraCrypt codebase](https://github.com/yala/NeuraCrypt). 
 Please email adamyala@mit.edu or post an issue if you have any questions. 
 
 ## Leaderboards
